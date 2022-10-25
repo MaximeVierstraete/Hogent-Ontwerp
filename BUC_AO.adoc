@@ -1,0 +1,37 @@
+== BUC_AO - aanwezigheden opnemen
+
+De docent registreert de aanwezigheden van de studenten
+
+=== Actors
+
+**Docent**, Student
+
+=== Preconditie
+-
+=== Basispad
+
+. De [.underline]#docent# wilt de aanwezigheden van de [.underline]#studenten# opnemen
+. De [.underline]#docent# neemt de klassenlijst. xref:domeinregels.adoc#IO[DR_IO]
+. De [.underline]#docent# roept de naam van de [.underline]#student# .
+. De [.underline]#student# geeft zijn studentenkaart aan de [.underline]#docent# .
+. De [.underline]#docent# controleert of de naam van de [.underline]#student# correct is.
+. De [.underline]#docent# noteert dat de [.underline]#student# aanwezig is.
+. De use case eindigt.
+
+**Postconditie**
+
+De student is geregistreerd als aanwezig.
+
+=== Alternatief A: Student is afwezig
+. De [.underline]#student# komt niet naar voren als deze geroepen wordt.
+. De [.underline]#Docent# registreert de student als afwezig.
+. De use case eindigt.
+
+*Postconditie*
+
+-
+
+=== Alternatief B: De student heeft zijn studentenkaart niet bij
+. De [.underline]#docent# kan niet bevestigen dat de student is wie hij zegt dat hij is.
+. De [.underline]#Docent# registreert de student als afwezig.
+. De use case eindigt.
