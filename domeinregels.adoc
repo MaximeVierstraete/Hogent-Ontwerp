@@ -1,0 +1,15 @@
+= Domeinregels
+
+=== DR_MJ meerderjarig
+[id=MJ]
+* De student is meerderjarig
+
+=== DR_DS diploma secundair
+[id=DS]
+* De student beschikt over een diploma secundair
+
+=== DR_IO ingeschreven onderdeel
+[id=IO]
+* De student is ingeschreven voor het opleidingsonderdeel
+
+
