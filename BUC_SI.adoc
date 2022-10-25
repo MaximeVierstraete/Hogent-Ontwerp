@@ -1,0 +1,71 @@
+== BUC_SI - Student Inschrijven
+
+De student wilt zich inschrijven bij de school
+
+=== Actors
+
+**Student**, Secretariaat-medewerker
+
+=== Preconditie
+-
+=== Basispad
+
+. De [.underline]#student# wilt zich inschrijven bij de school
+. De [.underline]#Secretariaat-medewerker# vraagt de naam van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt de voornaam van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt het rijksregisternummer van de [.underline]#student# op aan de hand van een ID-kaart.
+. De [.underline]#Secretariaat-medewerker# vraagt de geboortedatum van de [.underline]#student# op. xref:domeinregels.adoc#MJ[DR_MJ]
+. De [.underline]#Secretariaat-medewerker# vraagt het telefoonnummer van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt de vooropleiding van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt het adres van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt de nationaliteit van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt de taal/talen op die de [.underline]#student# meester is.
+. De [.underline]#Secretariaat-medewerker# vraagt het geslacht van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt het diploma secundair van de [.underline]#student# op. xref:domeinregels.adoc#DS[DR_DS]
+. De [.underline]#Secretariaat-medewerker# vraagt de gewenste modules van de [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# vraagt de betaling van de [.underline]#student# op.
+. De [.underline]#student# betaald voor de inschrijving.
+. De [.underline]#Secretariaat-medewerker# maakt een kopie van de voorgaande acties in een bewijs [.underline]#student# op.
+. De [.underline]#Secretariaat-medewerker# geeft het bewijsdocument aan de [.underline]#student#.
+. De use case eindigt.
+
+**Postconditie**
+
+De nieuwe student is opgeslaan in het systeem.
+
+=== Alternatief A: Stoppen
+. De [.underline]#student# tot stap 15 beslissen om te stoppen.
+. De [.underline]#medewerker# maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+*Postconditie*
+
+-
+
+=== Alternatief B: De student is in het verleden al eens ingeschreven
+. De [.underline]#medewerker# kan de nodige gegevens ophalen van de andere inschrijving
+
+[start=13]
+. Start hier terug met basispad
+
+*Postconditie*
+
+-
+
+=== Alternatief C: Minderjarig
+. De [.underline]#Secretariaat-medewerker# merkt dat de [.underline]#student#. minderjarig is. xref:domeinregels.adoc#MJ[DR_MJ]
+. De [.underline]#medewerker# maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+*Postconditie*
+
+-
+
+=== Alternatief D: Geen diploma
+. De [.underline]#Secretariaat-medewerker# merkt dat de [.underline]#student#. geen diploma secundair heeft. xref:domeinregels.adoc#DS[DR_DS]
+. De [.underline]#medewerker# maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+*Postconditie*
+
+-
