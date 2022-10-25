@@ -1,0 +1,28 @@
+== BUC_EI - Evaluatie Ingeven
+De lector wilt een evaluatie ingeven
+
+=== Actors
+
+**Lector**, student
+
+=== Preconditie
+De student was aanwezig en heeft één of meer testen afgelegd.
+
+=== Basispad
+
+. De [.underline]#lector# wilt een evaluatie van een [.underline]#student# ingeven.
+. De [.underline]#lector# authenticeert zich en logt in op het programma.
+. De [.underline]#lector# overloopt alle testen van de student en noteert een score van 0-20.
+. De [.underline]#lector# noteert feedback.
+. De [.underline]#lector# controleert of de student voldoende aanwezig is geweest volgens DR_
+. De [.underline]#lector# controleert of hij alles goed heeft ingevuld.
+. De [.underline]#lector# sluit het programma.
+. De use case eindigt.
+
+=== postconditie
+
+De student heeft een evaluatie gekregen van de lector.
+
+
+
+=== Uizondering A: de student was niet voldoende aanwezig

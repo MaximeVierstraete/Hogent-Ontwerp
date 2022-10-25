@@ -1,0 +1,24 @@
+== BUC_EO - Evaluatie Opvragen
+De student wilt zijn evaluatie opvragen
+
+=== Actors
+
+**Student**, ??????
+
+=== Preconditie
+Geen
+
+=== Basispad
+
+. De [.underline]#Student# wilt zijn evaluatie opvragen
+. De [.underline]#Student# authenticeert zich met zijn gebruikersgegevens en logt in.
+. De [.underline]#Student# vraagt zijn evaluaties op.
+. De [.underline]#Student# verkrijgt zijn evaluaties met bijhorende feedback.
+. De [.underline]#Student# is tevreden met zijn resultaat.
+. De [.underline]#Student# sluit het programma af.
+. De use case eindigt
+
+=== postconditie
+
+-
+
