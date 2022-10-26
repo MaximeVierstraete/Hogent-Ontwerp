@@ -1,28 +1,28 @@
+:author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
+:revnumber: v1.1
+:title: BUC Schooladministratie
+
 == BUC_EI - Evaluatie Ingeven
-De lector wilt een evaluatie ingeven
+De Docent wilt een eindevaluatie van een student ingeven
 
 === Actors
 
-**Lector**, student
+**Docent**, secretariaatsmedewerker
 
 === Preconditie
-De student was aanwezig en heeft één of meer testen afgelegd.
+
 
 === Basispad
 
-. De [.underline]#lector# wilt een evaluatie van een [.underline]#student# ingeven.
-. De [.underline]#lector# authenticeert zich en logt in op het programma.
-. De [.underline]#lector# overloopt alle testen van de student en noteert een score van 0-20.
-. De [.underline]#lector# noteert feedback.
-. De [.underline]#lector# controleert of de student voldoende aanwezig is geweest volgens DR_
-. De [.underline]#lector# controleert of hij alles goed heeft ingevuld.
-. De [.underline]#lector# sluit het programma.
+. De [.underline]#Docent# wilt een evaluatie van een student ingeven.
+. De [.underline]#Docent# controleert of de student correct is ingeschreven.
+. De [.underline]#Docent# overloopt alle testen van de student.
+. De [.underline]#Docent# noteert een score van 0-20.
+. De [.underline]#Docent# noteert feedback.
+. De [.underline]#Docent# controleert of hij alles goed heeft ingevuld.
+. De [.underline]#Docent# geeft de evaluatie af aan de [.underline]#secretariaatsmedewerker#.
 . De use case eindigt.
 
 === postconditie
 
-De student heeft een evaluatie gekregen van de lector.
-
-
-
-=== Uizondering A: de student was niet voldoende aanwezig
+De student heeft een eindevaluatie gekregen van de Docent.
