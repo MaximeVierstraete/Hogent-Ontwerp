@@ -1,3 +1,7 @@
+:author: Arnar Van Rysselberghe, Toon Van de Voorde, Nathalie Van Bellegem, Maxime Vierstraete, Mathias Van Rumst
+:revnumber: v1.0
+:title: BUC Schooladministratie
+
 == BUC_SI - Student Inschrijven
 
 De student wilt zich inschrijven bij de school
@@ -16,12 +20,12 @@ De student wilt zich inschrijven bij de school
 . De [.underline]#Secretariaat-medewerker# vraagt het rijksregisternummer van de [.underline]#student# op aan de hand van een ID-kaart.
 . De [.underline]#Secretariaat-medewerker# vraagt de geboortedatum van de [.underline]#student# op. xref:domeinregels.adoc#MJ[DR_MJ]
 . De [.underline]#Secretariaat-medewerker# vraagt het telefoonnummer van de [.underline]#student# op.
-. De [.underline]#Secretariaat-medewerker# vraagt de vooropleiding van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt het adres van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt de nationaliteit van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt de taal/talen op die de [.underline]#student# meester is.
 . De [.underline]#Secretariaat-medewerker# vraagt het geslacht van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt het diploma secundair van de [.underline]#student# op. xref:domeinregels.adoc#DS[DR_DS]
+. De [.underline]#Secretariaat-medewerker# vraagt de gewenste opleiding van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt de gewenste modules van de [.underline]#student# op.
 . De [.underline]#Secretariaat-medewerker# vraagt de betaling van de [.underline]#student# op.
 . De [.underline]#student# betaald voor de inschrijving.
@@ -45,7 +49,7 @@ De nieuwe student is opgeslaan in het systeem.
 === Alternatief B: De student is in het verleden al eens ingeschreven
 . De [.underline]#medewerker# kan de nodige gegevens ophalen van de andere inschrijving
 
-[start=13]
+[start=12]
 . Start hier terug met basispad
 
 *Postconditie*
